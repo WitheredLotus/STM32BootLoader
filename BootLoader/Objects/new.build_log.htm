@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Withered WitheredLotus, Withered, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.21a
+Toolchain Path:  D:\MDK\setup\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      UL2CM3.DLL V1.158.5.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+H:\stm32资料\ProjectShiYan\project1\new.uvprojx
+Project File Date:  10/04/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\MDK\setup\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling system_stm32f10x.c...
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(478): error:  #5: cannot open source input file "core_cm3.h": No such file or directory
+  #include "core_cm3.h"
+Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c: 0 warnings, 1 error
+compiling stm32f10x_gpio.c...
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(23): error:  #5: cannot open source input file "stm32f10x_gpio.h": No such file or directory
+  #include "stm32f10x_gpio.h"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c: 0 warnings, 1 error
+compiling core_cm3.c...
+compiling main.c...
+".\Objects\new.axf" - 2 Error(s), 0 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  H:\stm32资料\ProjectShiYan\project1\RTE
+  D:\MDK\setup\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

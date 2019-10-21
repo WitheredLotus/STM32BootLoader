@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\output\ustart.o"
+".\output\delay.o"
+".\output\sys.o"
+".\output\startup_stm32f10x_hd.o"
+".\output\core_cm3.o"
+".\output\system_stm32f10x.o"
+".\output\misc.o"
+".\output\stm32f10x_rcc.o"
+".\output\stm32f10x_usart.o"
+".\output\stm32f10x_gpio.o"
+".\output\main.o"
+".\output\stm32f10x_it.o"
+--library_type=microlib --ro-base 0x8002000 --entry 0x8002000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\new.map" -o .\Output\new.axf
