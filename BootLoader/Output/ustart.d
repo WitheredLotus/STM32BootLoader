@@ -30,3 +30,6 @@
 .\output\ustart.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\output\ustart.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
 .\output\ustart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\ustart.o: App\flash.h
+.\output\ustart.o: App\sys.h
+.\output\ustart.o: App\flash.h

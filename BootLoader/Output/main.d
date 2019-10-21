@@ -32,3 +32,8 @@
 .\output\main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\output\main.o: .\App\delay.h
 .\output\main.o: .\App\bootloader.h
+.\output\main.o: .\App\ustartx.h
+.\output\main.o: .\App\ustart.h
+.\output\main.o: .\App\flash.h
+.\output\main.o: .\App\sys.h
+.\output\main.o: .\App\flash.h
